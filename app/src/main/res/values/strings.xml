@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">InstaClone</string>
+    <string name="toolBarUserName">alexey_tsykunov</string>
+    <string name="ic_more">ic_more</string>
+    <string name="profile_image">profile_image</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="toolBarEditProfile">Edit Profile</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="website">Website</string>
+    <string name="bio">Bio</string>
+    <string name="private_information">Private Information</string>
+    <string name="email">Email</string>
+    <string name="phone_txt">Phone</string>
+    <string name="create_account">Don\'t have an account? <b>Sign up.</b></string>
+    <string name="please_enter_password">Please enter your password</string>
+    <string name="toolBarProfileSettings">Settings</string>
+    <string name="ic_add_friends">add friends</string>
+    <string name="toolBarFindFriends">Find friends</string>
+</resources>

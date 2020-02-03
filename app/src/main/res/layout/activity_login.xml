@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ru.asshands.softwire.instaclone.views.KeyboardAwareScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".activities.LoginActivity">
+
+        <ImageView
+                android:id="@+id/instagram_image"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="50dp"
+                android:src="@drawable/instagram_logo"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <!--Email-->
+        <EditText
+                android:id="@+id/email_input"
+                style="@style/big_input"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/big_bg"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                app:layout_constraintTop_toBottomOf="@+id/instagram_image" />
+
+        <!--Passsword-->
+        <EditText
+                android:id="@+id/password_input"
+                style="@style/big_input"
+                android:background="@drawable/big_bg"
+                android:hint="Password"
+                android:inputType="textPassword"
+                app:layout_constraintTop_toBottomOf="@+id/email_input" />
+
+        <!--Log In-->
+        <Button
+                android:id="@+id/login_btn"
+                style="@style/big_btn"
+                android:text="Log In"
+                app:layout_constraintTop_toBottomOf="@id/password_input" />
+
+        <TextView
+                android:id="@+id/create_account_text"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/toolbar_height"
+                android:background="@drawable/top_border_gray"
+                android:gravity="center"
+                android:text="@string/create_account"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ru.asshands.softwire.instaclone.views.KeyboardAwareScrollView>
