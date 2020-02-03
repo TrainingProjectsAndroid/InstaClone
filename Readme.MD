@@ -1,6 +1,6 @@
-# Пишем Instagram InstaClone
+# РџРёС€РµРј Instagram InstaClone
 
-[Пишем Instagram #0 - Android Kotlin Ккурс](https://youtu.be/wNhJDfuVDFA)
+[РџРёС€РµРј Instagram #0 - Android Kotlin РљРєСѓСЂСЃ](https://youtu.be/wNhJDfuVDFA)
 
-Для работы проекта нужно добавить свои настройки Firebase (файл google-services.json) в app.
-Подключение к Firebase описано "Instagram #8 - Android Kotlin курс".
+Р”Р»СЏ СЂР°Р±РѕС‚С‹ РїСЂРѕРµРєС‚Р° РЅСѓР¶РЅРѕ РґРѕР±Р°РІРёС‚СЊ СЃРІРѕРё РЅР°СЃС‚СЂРѕР№РєРё Firebase (С„Р°Р№Р» google-services.json) РІ app.
+РџРѕРґРєР»СЋС‡РµРЅРёРµ Рє Firebase РѕРїРёСЃР°РЅРѕ "Instagram #8 - Android Kotlin РєСѓСЂСЃ".
